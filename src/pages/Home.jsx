@@ -10,7 +10,7 @@ function Home() {
 
     return (
         <div className="my-4 text-sm bg-black/20 p-2 rounded-md">
-            <img src="./logo-white.png" alt="logo" className="w-24 h-24 mx-auto" />
+            <img src="/jo-demo-testing-ground/logo-white.png" alt="logo" className="w-24 h-24 mx-auto" />
             <motion.h1
                 variants={childVariants}
                 className="title my-5 font-semibold text-5xl text-center md:text-7xl lg:text-9xl whitespace-nowrap select-none"
@@ -29,7 +29,7 @@ function Home() {
                 </motion.div>
 
                 {/* Fixed Navigate Button */}
-                <Link to={'/contact'} className="btn flex-1 btn-primary btn-outline">
+                <Link to={'/jo-demo-testing-ground/contact'} className="btn flex-1 btn-primary btn-outline">
                     Contact Us!
                 </Link>
             </div>

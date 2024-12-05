@@ -12,10 +12,10 @@ function Navbar() {
                 <img src="./logo-black.png" alt="logo" className="w-10 h-10" />
             </div>
             <div className="navbar-end gap-1">
-                <Link to={'/'} className="btn" alt="Email Us!">
+                <Link to={'/jo-demo-testing-ground/'} className="btn" alt="Email Us!">
                     <IoHome size={25} alt="Email Us!" /> Home
                 </Link>
-                <Link to={'/contact'} className="btn btn-primary" alt="Email Us!">
+                <Link to={'/jo-demo-testing-ground/contact'} className="btn btn-primary" alt="Email Us!">
                     <IoMail size={25} alt="Email Us!" /> Contact Us!
                 </Link>
             </div>

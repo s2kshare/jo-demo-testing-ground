@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 function App() {
     const routes = [
         {
-            path: '/',
+            path: '/jo-demo-testing-ground/',
             label: 'Home',
             color: 'red',
             content: <Home />,
@@ -19,7 +19,7 @@ function App() {
             imageOrigin: 'bottom',
         },
         {
-            path: '/about',
+            path: '/jo-demo-testing-ground/about',
             label: 'About',
             color: 'green',
             content: <About />,
@@ -28,7 +28,7 @@ function App() {
             imageOrigin: 'center',
         },
         {
-            path: '/services',
+            path: '/jo-demo-testing-ground/services',
             label: 'Services',
             color: 'cyan',
             content: <Services />,
@@ -37,7 +37,7 @@ function App() {
             imageOrigin: 'center',
         },
         {
-            path: '/reviews',
+            path: '/jo-demo-testing-ground/reviews',
             label: 'Reviews',
             color: 'orange',
             content: <Reviews />,
@@ -46,7 +46,7 @@ function App() {
             imageOrigin: 'left',
         },
         {
-            path: '/contact',
+            path: '/jo-demo-testing-ground/contact',
             label: 'Contact!',
             color: 'purple',
             content: <Contact />,

@@ -16,7 +16,7 @@ function Reviews() {
             </div>
             <p className=" my-2 text-xs text-center text-white/50">
                 Don't find your review up?{' '}
-                <Link to={'/contact'} className=" underline underline-offset-4 text-primary">
+                <Link to={'/jo-demo-testing-ground/contact'} className=" underline underline-offset-4 text-primary">
                     Contact us!
                 </Link>
             </p>
