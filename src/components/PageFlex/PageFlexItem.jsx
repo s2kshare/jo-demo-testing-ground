@@ -25,7 +25,7 @@ function PageFlexItem({ route, index, activePath, setActivePath, navigate }) {
                 backgroundPosition: `${route.imageOrigin}`,
             }}
             className={`${
-                isActive ? 'flex-12 items-start' : 'hover:flex-2 hover:cursor-pointer flex-1 items-start'
+                isActive ? 'flex-8 items-start' : 'hover:flex-2 hover:cursor-pointer flex-1 items-start'
             } flex flex-col transition-all ease-in-out duration-300 delay-75 relative overflow-hidden`}
             key={`pageflex-${index}`}
             onHoverStart={() => setIsHover(true)}
@@ -88,7 +88,7 @@ function PageFlexItem({ route, index, activePath, setActivePath, navigate }) {
                     {isActive && (
                         <motion.div
                             key={`content-${index}`}
-                            className="text-white md:p-10 rounded-2xl px-5"
+                            className="text-white md:p-10 rounded-2xl px-5 max-h-full overflow-y-scroll"
                             initial={{ opacity: 0, y: 250 }}
                             animate={{ opacity: 1, y: -5 }}
                             exit={{ opacity: 0, y: -100 }}
