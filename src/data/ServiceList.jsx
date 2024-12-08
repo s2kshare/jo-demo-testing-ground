@@ -18,7 +18,7 @@ const services = [
     {
         name: 'Couples treatment',
         description:
-            '2x 30 minute massages, while one body is being massaged the other has a relaxing wait in the vibrating massage chair with thierfeet being soaked in the warm vibrating foot spa *there is a weight restriction for use of the massage chair.',
+            '2x 30 minute massages, while one body is being massaged the other has a relaxing wait in the vibrating massage chair with thier feet being soaked in the warm vibrating foot spa *there is a weight restriction for use of the massage chair.',
         duration: false,
         price: 140,
         category: 1,
@@ -74,7 +74,7 @@ const services = [
     {
         name: 'Chakra balance & cleanse',
         description:
-            'This is a holistic method of healing, creating alignment in your bodies energy centers. using a visualization exercise, sage, sound frequency & appropriate crystals to bring your mind, body & soul into a state of balance & harmony. This technique clears stagnant & negative energies & emotional blockages, getting you back in tune with your body, restoring physical & mental health & improving overall well-being.',
+            'This is a holistic method of healing, creating alignment in your bodies energy centers.\n\nUsing a visualization exercise, sage, sound frequency & appropriate crystals to bring your mind, body & soul into a state of balance & harmony.\n\nThis technique clears stagnant & negative energies & emotional blockages, getting you back in tune with your body, restoring physical & mental health & improving overall well-being.',
         price: false,
         duration: true,
         category: 1,
@@ -171,7 +171,7 @@ const services = [
         ],
     },
     {
-        name: 'Facial Waxing',
+        name: 'Heaven on Earth',
         description: 'Includes a full body relaxation massage, a Tranquilityfacial & a pedicure.',
         price: false,
         duration: true,

@@ -13,10 +13,10 @@ function Navbar() {
             </div>
             <div className="navbar-end gap-1">
                 <Link to={'/jo-demo-testing-ground/'} className="btn" alt="Email Us!">
-                    <IoHome size={25} alt="Email Us!" /> Home
+                    <IoHome size={25} alt="Email Us!" /> <span className=" hidden sm:flex">Home</span>
                 </Link>
                 <Link to={'/jo-demo-testing-ground/contact'} className="btn btn-primary" alt="Email Us!">
-                    <IoMail size={25} alt="Email Us!" /> Contact Us!
+                    <IoMail size={25} alt="Email Us!" /> <span className=" hidden sm:flex">Contact Us!</span>
                 </Link>
             </div>
         </div>

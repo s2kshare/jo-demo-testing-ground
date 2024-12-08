@@ -16,7 +16,7 @@ function Contact() {
     };
 
     return (
-        <div className="my-4 text-sm bg-black/20 p-2 rounded-md">
+        <div className="my-4 text-sm bg-black/20 p-2 rounded-md items-center flex-1">
             {/* Title */}
             <h1 className="font-semibold text-4xl text-center whitespace-nowrap select-none my-5">
                 Get in touch with us!

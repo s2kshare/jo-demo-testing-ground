@@ -94,7 +94,7 @@ function PageFlexItem({ route, index, activePath, setActivePath, navigate }) {
                             exit={{ opacity: 0, y: -100 }}
                             transition={{ ease: 'easeInOut', duration: 0.5 }}
                         >
-                            <div className="z-50">{route.content}</div>
+                            <div className="z-50 flex items-center justify-center">{route.content}</div>
                         </motion.div>
                     )}
                 </AnimatePresence>
