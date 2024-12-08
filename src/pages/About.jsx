@@ -8,7 +8,8 @@ function About() {
             </h1>
             <p className="my-2 text-xs sm:text-sm p-2 rounded-md">
                 My passion for the beauty industry started when I was 19 & received my first facial treatment. I thought
-                'wow this is what I want to do with my life, this is how I want to make people feel' and I have now...
+                'wow this is what I want to do with my life, this is how I want to make people feel' and I have now been
+                working in the industry for nearly 20 years.
                 <br />
                 <br />
                 I love making people look & feel amazing. I love my job & consider myself a natural at what I do. My
