@@ -21,7 +21,7 @@ function ServiceItem({ service }) {
                             {/* head */}
                             <thead>
                                 <tr className=" text-white">
-                                    <th>Duration</th>
+                                    <th>{service.subs[0].treatment ? 'Treatment' : 'Duration'}</th>
                                     <th>Price</th>
                                 </tr>
                             </thead>

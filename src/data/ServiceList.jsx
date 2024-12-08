@@ -18,7 +18,7 @@ const services = [
     {
         name: 'Couples treatment',
         description:
-            '2x 30 minute massages, while one body is being massaged the other has a relaxing wait in the vibrating massage chair with thier feet being soaked in the warm vibrating foot spa *there is a weight restriction for use of the massage chair.',
+            '2x 30 minute massages, while one body is being massaged the other has a relaxing wait in the vibrating massage chair with thier feet being soaked in the warm vibrating foot spa.\n\nThere is a weight restriction for use of the massage chair.',
         duration: false,
         price: 140,
         category: 1,
@@ -34,10 +34,12 @@ const services = [
             {
                 description:
                     'Beautiful facial - double cleanse, exfoliant, mask, tone, moisturiser, eye cream, lip balm & serum.',
+                treatment: true,
                 price: 55,
             },
             {
-                description: 'Tranquility facial- as above adding a decadent face, neck, shoulder & scalp massage.',
+                description: 'Tranquility facial - as above adding a decadent face, neck, shoulder & scalp massage.',
+                treatment: true,
                 price: 65,
             },
         ],
@@ -51,14 +53,17 @@ const services = [
         subs: [
             {
                 description: 'Eyelash Only',
+                treatment: true,
                 price: 25,
             },
             {
                 description: 'Eyebrow only',
+                treatment: true,
                 price: 15,
             },
             {
                 description: 'Eye Trio (tints plus eyebrow shape)',
+                treatment: true,
                 price: 50,
             },
         ],
@@ -81,10 +86,12 @@ const services = [
         subs: [
             {
                 description: 'Add on to another treatment',
+                treatment: true,
                 price: 25,
             },
             {
                 description: 'As sole treatment',
+                treatment: true,
                 price: 45,
             },
         ],
@@ -159,7 +166,7 @@ const services = [
     },
     {
         name: 'Beauty package',
-        description: 'Includes an eyelash tint, eyebrow shape & tint, Tranquilityfacial & pedicure.',
+        description: 'Includes an eyelash tint, eyebrow shape & tint, Tranquility facial & pedicure.',
         price: false,
         duration: true,
         category: 3,
@@ -172,7 +179,7 @@ const services = [
     },
     {
         name: 'Heaven on Earth',
-        description: 'Includes a full body relaxation massage, a Tranquilityfacial & a pedicure.',
+        description: 'Includes a full body relaxation massage, a Tranquility facial & a pedicure.',
         price: false,
         duration: true,
         category: 3,
@@ -222,14 +229,17 @@ const services = [
         subs: [
             {
                 description: '1st time',
+                treatment: true,
                 price: 65,
             },
             {
                 description: 'Maintenance (4-6 weeks)',
+                treatment: true,
                 price: 55,
             },
             {
                 description: 'Bikini Line',
+                treatment: true,
                 price: 25,
             },
         ],
@@ -243,22 +253,27 @@ const services = [
         subs: [
             {
                 description: 'Eyebrow Shape',
+                treatment: true,
                 price: 20,
             },
             {
                 description: 'Back or chest only',
+                treatment: true,
                 price: 40,
             },
             {
                 description: 'Add Shoulders	',
+                treatment: true,
                 price: 10,
             },
             {
                 description: 'Nose or Ear',
+                treatment: true,
                 price: 25,
             },
             {
                 description: 'Nose & Ear',
+                treatment: true,
                 price: 40,
             },
         ],
