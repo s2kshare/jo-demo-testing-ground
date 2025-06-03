@@ -33,7 +33,7 @@ function About() {
             </p>
             <p className="text-center">
                 Check out our{' '}
-                <Link to={'/jo-demo-testing-ground/services'} className=" text-primary underline underline-offset-2">
+                <Link to={'/services'} className=" text-primary underline underline-offset-2">
                     Services here!
                 </Link>
             </p>

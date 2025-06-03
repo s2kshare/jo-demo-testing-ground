@@ -38,7 +38,7 @@ function Home() {
             onHoverEnd={handleLogoHoverEnd}
             className="my-4 text-sm bg-black/20 p-2 rounded-md"
         >
-            <img src="/jo-demo-testing-ground/logo-white.png" alt="logo" ref={logoRef} className="w-24 h-24 mx-auto" />
+            <img src="/logo-white.png" alt="logo" ref={logoRef} className="w-24 h-24 mx-auto" />
             <motion.div className="text-white/25 text-xs gap-1 justify-between flex flex-row">
                 {['Beautiful Facials', 'Amazing Massage', 'Lashes & Brows', 'Magic Hands'].map((text, index) => (
                     <motion.p
@@ -60,14 +60,11 @@ function Home() {
             </motion.p>
             <div className="flex gap-1 w-full">
                 <motion.div className="flex-1">
-                    <Link to="/jo-demo-testing-ground/services" className="btn btn-primary w-full text-xs sm:text-sm">
+                    <Link to="/services" className="btn btn-primary w-full text-xs sm:text-sm">
                         Check Out Our Services!
                     </Link>
                 </motion.div>
-                <Link
-                    to="/jo-demo-testing-ground/contact"
-                    className="btn flex-1 btn-primary btn-outline text-xs sm:text-sm"
-                >
+                <Link to="/contact" className="btn flex-1 btn-primary btn-outline text-xs sm:text-sm">
                     Contact Us!
                 </Link>
             </div>

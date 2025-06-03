@@ -14,7 +14,7 @@ function Services() {
                     return <ServiceItem key={index} service={service} />;
                 })}
             </div>
-            <Link to={'/jo-demo-testing-ground/contact'} className="btn btn-primary w-full">
+            <Link to={'/contact'} className="btn btn-primary w-full">
                 Contact us about our Services <IoMail size={18} />
             </Link>
         </div>
