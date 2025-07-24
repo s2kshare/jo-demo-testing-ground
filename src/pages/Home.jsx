@@ -56,7 +56,10 @@ function Home() {
                 ))}
             </motion.div>
             <motion.p className="my-4 select-none text-xs text-center sm:text-sm">
-                I am a home beauty salon that provides a range of services to help you look and feel your best.
+                A home based beauty therapy salon that offers affordable treatments using natural & organic skincare.
+                With 20 years of experience, I specialize in brow artistry, natural facials & relaxation massage that
+                transports your mind to a place of bliss. I strive to provide a comfortable & peaceful experience for
+                all my customers.
             </motion.p>
             <div className="flex gap-1 w-full">
                 <motion.div className="flex-1">

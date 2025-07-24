@@ -98,7 +98,7 @@ const services = [
     },
     // Category 2 => Massage Therapy
     {
-        name: 'Relaxation or therapeutic',
+        name: 'Relaxation or therapeutic massage',
         description:
             "Let Jo's 'magic hands' transport your mind, body & soul into a state of bliss & tranquility, reducing stress, pain & improving sleep quality.",
         price: false,
@@ -120,7 +120,7 @@ const services = [
         ],
     },
     {
-        name: 'Hot stone',
+        name: 'Hot stone massage',
         description: 'Relax & unwind while the magic of hot stones melt away aches & pains.',
         price: false,
         duration: true,
